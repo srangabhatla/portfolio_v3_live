@@ -20,8 +20,8 @@ import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 import { caseStudies, type CaseStudy } from './caseStudies';
 import FrameworkVisualizer from './FrameworkVisualizer';
-import profileImage1 from './ddb2269e-f6c0-481e-af63-1a13e3204958.jpg';
-import profileImage2 from './1624bbcd-2bdb-42b1-a6dc-a257a2a7ce0e.jpg';
+import profileImage1 from '../ddb2269e-f6c0-481e-af63-1a13e3204958.jpg';
+import profileImage2 from '../1624bbcd-2bdb-42b1-a6dc-a257a2a7ce0e.jpg';
 
 function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
