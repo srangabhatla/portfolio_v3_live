@@ -20,6 +20,8 @@ import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 import { caseStudies, type CaseStudy } from './caseStudies';
 import FrameworkVisualizer from './FrameworkVisualizer';
+import profileImage1 from './ddb2269e-f6c0-481e-af63-1a13e3204958.jpg';
+import profileImage2 from './1624bbcd-2bdb-42b1-a6dc-a257a2a7ce0e.jpg';
 
 function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -211,7 +213,7 @@ export default function App() {
             className="absolute top-0 right-0 w-64 h-80 md:w-80 md:h-[450px] rounded-[3rem] overflow-hidden glass hidden lg:block z-10 shadow-2xl shadow-black/50 border border-white/10"
           >
             <img 
-              src="./1624bbcd-2bdb-42b1-a6dc-a257a2a7ce0e.jpg" 
+              src={profileImage1} 
               alt="Sriharsha Rangabhatla" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -582,7 +584,7 @@ export default function App() {
           <div className="relative">
             <div className="aspect-[3/4] rounded-[3rem] overflow-hidden glass relative z-10">
               <img 
-                src="./1624bbcd-2bdb-42b1-a6dc-a257a2a7ce0e.jpg" 
+                src={profileImage2}
                 alt="Sriharsha Rangabhatla" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
                 referrerPolicy="no-referrer"
