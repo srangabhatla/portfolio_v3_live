@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
-import { caseStudies, type CaseStudy } from './data/caseStudies';
-import FrameworkVisualizer from './components/FrameworkVisualizer';
+import { caseStudies, type CaseStudy } from './caseStudies';
+import FrameworkVisualizer from './FrameworkVisualizer';
 
 function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
